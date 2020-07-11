@@ -1,0 +1,44 @@
+body{
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    background-image: url(./portfolio-6.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover   ; */
+}
+button{
+    width: 80px;
+    height:50px;
+    font-style: bold;
+    border-radius: 20px;
+    margin-top:5px ;
+    
+}
+.stop{
+    background-color: red;
+    color: white;
+}
+.start{
+    background-color: green;
+    color: white;
+
+}
+.reset{
+    background-color: yellow;
+    color: white;
+   
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+.content{
+    display: inline-flex;
+    width: 200px;
+    height: 100px;
+    background-color: darkblue;
+    color: white;
+    /* display: inline-flex; */
+    text-align: center;
+    justify-content: space-around;
+}
